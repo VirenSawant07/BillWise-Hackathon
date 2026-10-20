@@ -11,8 +11,10 @@ BillWise lets you upload an Indian hospital or pharmacy bill and shows which cha
 
 ## 🙋 My contribution
 
-- Built the complete frontend for **page one and page two** in React 19, Vite and Tailwind CSS
-- The frontend is hosted on **AWS Amplify** and talks to the serverless backend (**API Gateway → AWS Lambda**)
+- Built the **React 19 + TypeScript** frontend (Vite, Tailwind CSS) using AI-assisted development
+- Integrated the frontend with the serverless backend's REST API (bill upload, report polling, letter generation) through **Amazon API Gateway → AWS Lambda**; the frontend is hosted on **AWS Amplify**
+- Cleaned up the repository for release: removed unneeded files and cluttered history, and audited every file for leaked credentials
+- Researched NPPA ceiling-price vs MRP data and contributed to the project idea
 - Found and fixed frontend glitches and rendering issues across the app
 
 ## 🏆 Certificate
@@ -20,6 +22,8 @@ BillWise lets you upload an Indian hospital or pharmacy bill and shows which cha
 <p align="center">
   <img src="bharatbuilds virencert.png" alt="Certificate of Participation — Viren Sawant, Bharat Builds Tour: First Commit, WeMakeDevs × AWS" width="750">
 </p>
+
+<p align="center"><sub>Verified certificate · ID <code>5SYB52TVSS</code> · issued 20 September 2026 · scan the QR code on the certificate to verify</sub></p>
 
 ---
 
@@ -29,7 +33,7 @@ BillWise lets you upload an Indian hospital or pharmacy bill and shows which cha
 |---|---|
 | **Tejas Mogare** (Team Lead) | Supervised every part of the project; built the complete backend and integrated the services with the frontend |
 | **Satvik Shinde** | All AWS services and their integration, the full pipeline including Amplify; a key part of the project idea |
-| **Viren Sawant** | Complete frontend for page one and page two; fixed frontend glitches and rendering issues |
+| **Viren Sawant** | React + TypeScript frontend and its integration with the backend API; repository cleanup and credential audit before release; NPPA price-data research |
 | **Shreyas Pakhale** | Error and bug fixes, managing records, and maintaining the full Git repository |
 
 ---
